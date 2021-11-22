@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat, no-repeat;
 }
 
-div {
+.know {
     position: relative;
     background-color: #ffffff;
     width: 25%;
@@ -79,4 +79,51 @@ button {
 button a {
     text-decoration: none;
     color: #016972;
+}
+
+@media(max-width: 1030px) {
+    .know {
+        width: 50%;
+    }
+    .vic {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 35%;
+        top: 6rem;
+        border-radius: 50%;
+        border: 4px solid white;
+    }
+}
+@media(max-width: 800px) {
+    .know {
+        width: 50%;
+    }
+    .vic {
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 35%;
+        top: 6rem;
+        border-radius: 50%;
+        border: 4px solid white;
+    }
+}
+
+@media(max-width: 420px) {
+    .know {
+        width: 50%;
+    }
+    .vic {
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        left: 28.5%;
+        top: 2rem;
+        border-radius: 50%;
+        border: 4px solid white;
+    }
 }
